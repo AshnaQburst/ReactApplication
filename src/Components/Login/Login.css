@@ -1,9 +1,37 @@
-.login-container{
-    width: 500px;
-    height: 400px;
-    margin: 0px auto;
+.loginContainer{
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
     top: 50%;
-    transform: translateY(-50%);
-    border: 1px solid #cccccc;
+    transform: translate(-50%,-50%);
+    border: 3px solid #cccccc;
     border-radius: 4px;
+}
+.loginContainer h1{
+    text-align: center;
+}
+.loginContainer p{
+    margin-bottom: 5px;
+}
+.loginContainer input{
+    padding: 5px 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.loginContainer button{
+    margin-top: 15px;
+    display: block;
+    width: 70px;
+    padding: 3px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.loginContainer div{
+    text-align: center;
+    margin-top: 10px;
 }
