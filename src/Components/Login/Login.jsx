@@ -1,11 +1,13 @@
 import React from 'react';
+import './Login.css';
 
 class Login extends React.Component{
     render() {
         return(
-            <div style={{textAlign: 'center'}}>
-                <h1>Login</h1>
+            <div className="login-container">
+
             </div>
+            
         );
     }
 }
